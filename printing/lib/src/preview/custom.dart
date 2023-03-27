@@ -264,14 +264,7 @@ class PdfPreviewCustomState extends State<PdfPreviewCustom>
     }
 
     return Container(
-      decoration: widget.scrollViewDecoration ??
-          BoxDecoration(
-            gradient: LinearGradient(
-              colors: <Color>[Colors.grey.shade400, Colors.grey.shade200],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-            ),
-          ),
+      color: Colors.white,
       width: double.infinity,
       alignment: Alignment.center,
       child: page,
